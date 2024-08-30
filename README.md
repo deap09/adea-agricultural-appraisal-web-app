@@ -1,4 +1,4 @@
-# Adea Agricultural Appraisal Web App
+# Adea's Agricultural Appraisal Web App
 
 ## Preview
 
