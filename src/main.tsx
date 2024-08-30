@@ -7,11 +7,6 @@ import { store } from "@/redux-config/store";
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-console.log(
-  "import.meta.env.API_KEY =>",
-  import.meta.env.VITE_FIREBASE_API_KEY
-); // "123"
-
 const firebaseConfig = {
   apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
