@@ -2,7 +2,7 @@ import * as React from "react";
 import Map, { Source, Layer } from "react-map-gl";
 import DrawControl from "./DrawControl";
 import ControlPanel from "./ControlPanel";
-import { dataLayer, fillLayer } from "./map-style";
+import { dataLayer, fillLayer } from "./mapStyle";
 
 import { useAppDispatch, useAppSelector } from "@/redux-config/hooks";
 
@@ -77,7 +77,7 @@ export default function MapContainer() {
     <>
       <Map
         initialViewState={{
-          longitude: 5.0849, //52.06022531191078, 5.08494675125819
+          longitude: 5.0849,
           latitude: 52.0602,
           zoom: 15,
         }}

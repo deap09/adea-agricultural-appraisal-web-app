@@ -30,9 +30,3 @@ export default function DrawControl(props: DrawControlProps) {
 
   return null;
 }
-
-// DrawControl.defaultProps = {
-//   onCreate: () => {},
-//   onUpdate: () => {},
-//   onDelete: () => {},
-// }
